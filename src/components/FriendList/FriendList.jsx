@@ -21,17 +21,17 @@ export const FriendList = ({friends}) => {
   );
 };
 
-/* FriendList.propTypes = {
+FriendList.propTypes = {
   friends: PropTypes.arrayOf(
     PropTypes.shape({
       id: PropTypes.number.isRequired,
     }).isRequired
   ).isRequired,
-}; */
+};
 
-FriendList.propTypes = {
+/* FriendList.propTypes = {
   friends: PropTypes.array
-}
+} */
 
 
 

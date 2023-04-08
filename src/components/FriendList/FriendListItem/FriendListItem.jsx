@@ -3,14 +3,15 @@ import PropTypes from 'prop-types';
 
 export const FriendListItem = ({ avatar, name, isOnline, }) => {
     return (
-        <li className={css.item}>
-            <span className={`${css.friends__status} ${css[isOnline]}`}>
-              {isOnline}
-            </span>
-            <img className={css.avatar} src={avatar} alt={name} width="48" />
-            <p className={css.name}>{name}</p>
-        </li>
-    )
+      <li className={css.item}>
+          <span className={`${css.friends__status} ${css[isOnline]}`}>
+          {isOnline}
+        </span>
+
+        <img className={css.avatar} src={avatar} alt={name} width="48" />
+        <p className={css.name}>{name}</p>
+      </li>
+    );
 }
 
 FriendListItem.propTypes = {

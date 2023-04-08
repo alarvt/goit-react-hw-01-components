@@ -1,0 +1,39 @@
+.item {
+    display: flex;
+    margin-bottom: 20px;
+    background-color: yellow;
+    border-radius: 10px;
+    width: 350px;
+    height: 70px;  
+
+}
+
+.avatar {
+    padding-right: 50px;  
+    padding-left: 100px; 
+    padding-top: 10px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+
+}
+
+.name {
+    font-size: 20px;
+    /* margin-right: 10px; */
+}
+
+.friends__status {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-left: 20px;
+  margin-top: 25px;
+}
+
+.true {
+  background-color: green;
+}
+.false {
+  background-color: red;
+}
